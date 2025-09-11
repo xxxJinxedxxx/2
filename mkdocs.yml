@@ -1,0 +1,38 @@
+site_name: 2nd
+theme: material
+nav:
+  - Home: 
+    - Français: 
+        - Sequence 1: 
+          - Seance 1: 'Français/Sequence 1/Seance 1.md'
+    - Maths : 
+      - Ensembles de nombres 1/3 : 'Maths/Ensembles de nombres.md'
+    # - Histoire :
+    # - Anglais : 
+    # - Italien : 
+    # - Maths : 
+    # - PC : 
+    # - SNT :
+    # - SVT : 
+  - 'about.md'
+  - 'Issue Tracker': 'https://example.com/'
+
+
+
+
+markdown_extensions:
+  - smarty
+  - sane_lists
+  - admonition
+  - legacy_attrs
+  - pymdownx.caret
+  - pymdownx.extra
+  - pymdownx.blocks.details
+  - pymdownx.blocks.caption
+  - pymdownx.tasklist
+
+
+extra_javascript:
+  - mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.13.8/mermaid.min.js
+  - https://cdn.jsdelivr.net/gh/rod2ik/cdn@main/mkdocs/javascripts/massilia-mermaid.js
