@@ -27,11 +27,11 @@ La ville et la campagnes sont deux lieux privilégié de la poésie, ils offrent
 - Le "e" muet se prononce devant une consonne, mais pas devant une voyelle ni en fin de vers.  
 - La **diérèse** consiste à séparer les deux voyelles d’une même syllabe en deux syllabes.
 
-> [!Example]- Exemple
-> Du palais d’un jeune lapin
-> Ce toit tranquille // où marche des colombes
-> Au pied du sycomore // ou sur les lauriers blancs
-> Et comme l’Espérance // est violente
+!!! note "Exemples"
+	Du palais d’un jeune lapin
+	Ce toit tranquille // où marche des colombes
+	Au pied du sycomore // ou sur les lauriers blancs
+	Et comme l’Espérance // est violente
 
 # Les Strophes
 
@@ -57,11 +57,11 @@ C’est un ensemble de vers:
   - croisées : (ABAB)
   - embrassées : (ABBA)
   
-> [!Example]- Exemples
-> « mât » / « rat » = [a]
-« vent » / « souvent » = [v] + [ã]
-« aromatique » / « boutique » = [t] + [i] + [k]
-« larme » / « alarme » = [l] + [a] + [r] + [m]
+!!! note "Exemples"
+	« mât » / « rat » = [a]
+	« vent » / « souvent » = [v] + [ã]
+	« aromatique » / « boutique » = [t] + [i] + [k]
+	« larme » / « alarme » = [l] + [a] + [r] + [m]
 
 # Les Discordances
 
@@ -69,11 +69,10 @@ C’est un ensemble de vers:
 - rejet: débordement au début d’un vers d’un segment très court lié syntaxiquement au vers précédent.  
 - contre-rejet: isolement en fin de vers d’un segment très court lié syntaxiquement au vers suivant.
 
-> [!Example]- Exemples
-> 1. Il y *venait sans cesse, *et ce songeur qui crée  
-Orfeïo d'une larme Alceste d’un sanglot
-2. Et la nuque baignant dans le frais cresson bleu,  
-Dont-il est entendu dans l’herbe sous la nue
-3. La foule a tort: l’esprit c’est le cœur; le penseur  
-Souffre de sa pensée et se brûle à sa flamme
+!!! note "Exemples"
 
+  1. Il y venait sans cesse, et ce songeur qui crée  Orfeïo d'une larme Alceste d’un sanglot
+  2. Et la nuque baignant dans le frais cresson bleu,  
+  Dont-il est entendu dans l’herbe sous la nue
+  1. La foule a tort: l’esprit c’est le cœur; le penseur  
+  Souffre de sa pensée et se brûle à sa flamme
