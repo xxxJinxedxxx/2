@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../Fran%C3%A7ais/Figure%20de%20style/">
+        <link rel="prev" href="../Ensembles%20de%20nombres/">
       
       
-        <link rel="next" href="../Algorithmique%20et%20programmation/">
+        <link rel="next" href="../../about/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Ensembles de nombres 1/3 - 2nd</title>
+        <title>Algorithmique et programmation 1/2 - 2nd</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#les-intervalles-de-mathbbr-et-valeur-absolue" class="md-skip">
+        <a href="#i-types-de-variables-affectation" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ensembles de nombres 1/3
+              Algorithmique et programmation 1/2
             
           </span>
         </div>
@@ -432,6 +432,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ensembles%20de%20nombres/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ensembles de nombres 1/3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -444,72 +467,7 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Ensembles de nombres 1/3
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    Ensembles de nombres 1/3
-    
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-les-intervalles-de-mathbbr" class="md-nav__link">
-    <span class="md-ellipsis">
-      1/ Les Intervalles De $\mathbb{R}$
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Algorithmique%20et%20programmation/" class="md-nav__link">
         
   
   
@@ -520,6 +478,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -604,23 +563,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-les-intervalles-de-mathbbr" class="md-nav__link">
-    <span class="md-ellipsis">
-      1/ Les Intervalles De $\mathbb{R}$
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -635,63 +577,52 @@
 
 
 
-<h1 id="les-intervalles-de-mathbbr-et-valeur-absolue">Les Intervalles De $\mathbb{R}$ Et Valeur Absolue</h1>
-<div class="admonition note">
+<h1 id="i-types-de-variables-affectation">I – Types de variables – Affectation</h1>
+<div class="admonition notes">
+<p class="admonition-title">Définition - Un <strong>algorithme</strong></p>
+<p>Un <strong>algorithme</strong> est un enchaînement d&rsquo;étapes ou d&rsquo;<strong>instructions</strong> à effectuer dans un certain ordre et dont la réalisation va permettre la résolution d&rsquo;un problème donné. Un algorithme manipule des <strong>variables</strong>. Son intérêt, c&rsquo;est d&rsquo;<strong>être codé</strong> dans un langage informatique afin qu&rsquo;une machine (ordinateur, calculatrice) puisse l&rsquo;exécuter rapidement et efficacement.</p>
+</div>
+<div class="admonition notes">
+<p class="admonition-title">Définition - Une <strong>variable</strong></p>
+<p>Une <strong>variable</strong> est une « boîte » possédant un <strong>nom</strong> et dans laquelle est stockée une <strong>valeur</strong>. On utilise différents <strong>types de valeurs</strong> :
+- <strong>entier</strong> : nombre entier relatif
+- <strong>flottant</strong> : nombre réel (écriture décimale)
+- <strong>booléen</strong> : variable ne pouvant prendre que deux états notés Vrai et Faux
+- <strong>chaîne de caractères</strong> : suite ordonnée de caractères</p>
+</div>
+<div class="admonition notes">
 <p class="admonition-title">Définition</p>
+<p>La <strong>longueur</strong> d’une chaîne de caractères est son nombre d’éléments.
+Le $k^e$ élément d’une chaîne de caractère $L$ est donné par $L [k - 1]$ (le 1er élément est l’élément de rang 0).</p>
 </div>
-<p>L&rsquo;ensemble des nombres réels est l&rsquo;ensemble des abscisses des points d’une droite graduée.
- On le note ℝ 
- Cette droite se nomme droite numérique.</p>
-<h2 id="1-les-intervalles-de-mathbbr">1/ Les Intervalles De $\mathbb{R}$</h2>
-<div class="admonition note">
-<p class="admonition-title">Définition</p>
-</div>
-<p>Définition : Soient $a$ et $b$ deux réels tels que $a\le b$.
- L&rsquo;intervalle $[a ; b]$ est l&rsquo;ensemble des nombres réels supérieurs ou égaux à $a$ ET inférieurs ou égaux à $b$.</p>
-<p>autrement dit :
-$a \le x \le b$ signifie $x \in[a ; b]$
-![[{1197C5a7-36F8-4949-abC5-EFE1b25530DC}.png]]</p>
-<div class="admonition note">
-<p class="admonition-title">Exemples</p>
-</div>
-<p>Noter sous forme d&rsquo;intervalle l&rsquo;ensemble des nombres $x$ tels que : </p>
-<p>$$-2 \le x \le 3.$$</p>
-<p>0 est-il un nombre de cet intervalle ?
- 4 est-il un nombre de cet intervalle ?
- -2,1 est-il un nombre de cet intervalle ?</p>
-<div class="admonition note">
-<p class="admonition-title">Remarque</p>
-</div>
-<p>$$-2 \le x \le 3 \iff x \in [-2 ; 3].$$</p>
-<p>Le symbole $\iff$ signifie est « équivalent à ».</p>
-<h1 id="autres-intervalles-de-mathbbr">Autres Intervalles De $\mathbb{R}$</h1>
-<ul>
-<li>$a &lt; x &lt; b \iff x \in]a ; b[$</li>
-<li>$a &lt; x ≤ b \iff x \in]a ; b]$</li>
-<li>$a ≤ x &lt; b \iff x \in [a ; b[$</li>
-<li>$x &gt; a \iff x \in ]a ; +\infty[$</li>
-<li>$x \ge a \iff x \in [a ; +\infty[$</li>
-<li>$x &lt; b \iff x \in ] -\infty ; b[$</li>
-<li>$x ≤ b \iff x \in ] -\infty ; b]$</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Définitions : Intervalles particuliers</p>
-</div>
-<p>L&rsquo;ensemble vide ne contient aucun élément, on le note $\emptyset$.
-  Un ensemble ne contenant qu’un seul réel $a$ se note ${a}$.
-  L’ensemble des réels $\mathbb{R}$ à l’aide d’un intervalle se note $]-\infty ;+\infty[$.
-  $[0 ; +\infty[$ est l’ensemble des réels positifs ou nuls. On le note $\mathbb{R}+$.
-  $]-\infty;0]$est l’ensemble des réels négatifs ou nuls. On le note $\mathbb{R}-$.
-  L’ensemble des réels privé de 0 se note $\mathbb{R}*$ ou $\mathbb{R}\setminus{0}$.</p>
+<p>!!! Examples &ldquo;Exemple&rdquo; : 
+    La variable A contient le mot « ALGORITHME ». A est une variable de type  « chaîne de caractères ». La longueur de la chaîne est 10. Le premier élément, noté $A[0]$, est A. Le 5e élément, noté $A[4]$, est $R$.</p>
+<p>!!! notes &ldquo;Définition - L’affectation d’une variable&rdquo; : 
+<strong>L’affectation d’une variable</strong> est l’instruction permettant de « remplir » la boîte correspondante. Affecter une donnée va permettre à l&rsquo;algorithme d&rsquo;attribuer une valeur à une variable.</p>
+<p>Exemple et notation : On donne à X la valeur a. L’instruction correspondante est :
+« X ← a » qui se lit « X prend la valeur a » ou « X reçoit la valeur a » ou « la valeur a est
+affectée à X ».
+Exemple :
+Programme de calcul Algorithme
+Choisir un nombre pair.
+Calculer le carré de sa moitié.
+Ajouter au résultat le nombre entier qui suit
+le nombre choisi.
+Calculer et afficher la racine carrée du
+résultat.
+Deux variables : N, entier (choisi par
+l’utilisateur) et R, flottant (pour stocker le
+résultat obtenu à chaque étape)
+R ← (N/2)²
+R ← R + (N + 1)
+R ← √R
+Afficher R</p>
 
 
 
 
 
 
-
-  
-  
 
 
 

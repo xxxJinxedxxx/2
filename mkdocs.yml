@@ -1,15 +1,18 @@
 site_name: 2nd
 theme: 
   name: material
+  highlightjs: true
   font:
     text:  inter
 
 nav:
   - Home: 
-    - Français: 
+    - Français:
         - Séquence 1: 
           - Séance 1: 'Français/Sequence 1/Seance 1.md'
           - Séance 2: 'Français/Sequence 1/Seance 2.md'
+        - Figures de styles - Complet : 'Français/FdS_F.md'
+        - Figures de styles - A Apprendre : 'Français/FdS_nF.md'
     - Maths : 
       - Ensembles de nombres 1/3 : 'Maths/Ensembles de nombres.md'
       - Algorithmique et programmation 1/2 : 'Maths/Algorithmique et programmation.md'
