@@ -2,32 +2,32 @@ site_name: 2nd
 theme: 
   name: material
   highlightjs: true
-  font:
-    text:  inter
+  font-:
+    text: Inter
+
+
+
 
 nav:
-  - Home: 
-    - Français:
-        - Séquence 1: 
-          - Séance 1: 'Français/Sequence 1/Seance 1.md'
-          - Séance 2: 'Français/Sequence 1/Seance 2.md'
-        - Figures de styles - Complet : 'Français/FdS_F.md'
-        - Figures de styles - A Apprendre : 'Français/FdS_nF.md'
-    - Maths : 
-      - Ensembles de nombres 1/3 : 'Maths/Ensembles de nombres.md'
-      - Algorithmique et programmation 1/2 : 'Maths/Algorithmique et programmation.md'
-    - Histoire : 
-      - La méditerrannée Antique : 'Histoire/CH1.md'
-      - La méditerrannée Antique Révisions : 'Histoire/CH1_R.md'
-    # - Histoire :
-    # - Anglais : 
-    # - Italien : 
-    # - Maths : 
-    # - PC : 
-    # - SNT :
-    # - SVT : 
-  - 'about.md'
-  - 'Issue Tracker': 'https://example.com/'
+  - Français:
+      - Séquence 1: 
+        - Séance 1: 'Français/Sequence 1/Seance 1.md'
+        - Séance 2: 'Français/Sequence 1/Seance 2.md'
+      - Figures de styles - Complet : 'Français/FdS_F.md'
+      - Figures de styles - A Apprendre : 'Français/FdS_nF.md'
+  - Maths : 
+    - Ensembles de nombres 1/3 : 'Maths/Ensembles de nombres.md'
+    - Algorithmique et programmation 1/2 : 'Maths/Algorithmique et programmation.md'
+  - Histoire : 
+    - La méditerrannée Antique : 'Histoire/CH1.md'
+    - La méditerrannée Antique Révisions : 'Histoire/CH1_R.md'
+  # - Anglais : 
+  # - Italien : 
+  # - Maths : 
+  # - PC : 
+  # - SNT :
+  # - SVT : 
+
 
 
 
@@ -35,6 +35,7 @@ nav:
 
 extra_css:
   - extra.css
+  - mermaid.css
   - https://cdn.jsdelivr.net/gh/rod2ik/cdn@main/mkdocs/css/massilia-mermaid.css
 
 extra_javascript:
