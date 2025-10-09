@@ -17,6 +17,19 @@ flowchart TD
 - Il transforme les institutions d'Athènes (Misthos)
 - Il étend l'influence de la ligue de Délos
 - Meurt de la peste
+```mermaid
+flowchart TD
+    A["Empire Romain fondé par Auguste"]
+    B["Intense vie dans les cités"]
+    C["Immense empire autour de la Mediterrannée"]
+    D["Brassage Culturel et religieux"]
+    F["Christianisme favorisé par l'empereur Constantin"]
+    A --> B
+    A --> C
+    A --> D
+    C --> F
+    D --> F
+```
 
 
 # Dates importantes à Rome 
