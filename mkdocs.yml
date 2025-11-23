@@ -21,6 +21,8 @@ nav:
   - Histoire : 
     - La méditerrannée Antique : 'Histoire/CH1.md'
     - La méditerrannée Antique Révisions : 'Histoire/CH1_R.md'
+    - La méditerrannée médiévale : 'Histoire/CH2.md'
+    - La méditerrannée médiévale Révisions : 'Histoire/CH2_R.md'
   # - Anglais : 
   # - Italien : 
   # - Maths : 
@@ -53,8 +55,6 @@ markdown_extensions:
   - pymdownx.blocks.details
   - pymdownx.blocks.caption
   - pymdownx.tasklist
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_alt
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
