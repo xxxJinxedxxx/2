@@ -8,6 +8,7 @@
 
 # 2/ La présentation de l'auteur 
 3 éléments :
+
 - Son nom et son siècle
 - son mouvement littéraire
 - Mentionner ses oeuvres les plus connues 

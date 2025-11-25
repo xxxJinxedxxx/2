@@ -15,6 +15,7 @@ nav:
         - Séance 2: 'Français/Sequence 1/Seance 2.md'
       - Figures de styles - Complet : 'Français/FdS_F.md'
       - Figures de styles - A Apprendre : 'Français/FdS_nF.md'
+      - Méthode du commentaire : 'Français/Sequence 1/Le commentaire.md'
   - Maths : 
     - Ensembles de nombres 1/3 : 'Maths/Ensembles de nombres.md'
     - Algorithmique et programmation 1/2 : 'Maths/Algorithmique et programmation.md'
@@ -23,6 +24,8 @@ nav:
     - La méditerrannée Antique Révisions : 'Histoire/CH1_R.md'
     - La méditerrannée médiévale : 'Histoire/CH2.md'
     - La méditerrannée médiévale Révisions : 'Histoire/CH2_R.md'
+  - SVT : 
+    - Le métabolisme des cellules : 'SVT/CH2.md'
   # - Anglais : 
   # - Italien : 
   # - Maths : 
